@@ -15,7 +15,10 @@ Car.prototype.sale = function(newOwner){
 
 Car.prototype.paint = function(newColor){
   this.color = "Blue";
+};
 
+Car.prototype.start = function(start){
+  this.state = 'on';
 };
 
 
