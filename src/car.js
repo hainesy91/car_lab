@@ -29,6 +29,11 @@ Car.prototype.pickUp = function(passengers){
   if(this.state === 'on'){
     this.passengers = ["john"];
   };
+
+Car.prototype.dropOff = function(passengers){
+  this.passengers = "";
+}
+
 };
 
 
