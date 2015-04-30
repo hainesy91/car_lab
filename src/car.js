@@ -23,6 +23,10 @@ Car.prototype.start = function(start){
 
 Car.prototype.off = function(off){
   this.state = 'off';
-}
+};
+
+Car.prototype.pickUp = function(passengers){
+  this.passengers = ["john"];
+};
 
 module.exports=Car;
